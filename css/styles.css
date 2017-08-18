@@ -88,3 +88,24 @@ body, html {
 	color: black;
 }
 
+.navbar-bottom{
+	text-align: left;
+	text-decoration: none;
+	margin: 0px;
+	padding: 0px;
+	overflow: hidden;
+}
+
+.social-media-container{
+	float: left;
+	width: auto;
+	margin: 0px;
+	padding: 0px;
+}
+
+.text-muted{
+	text-align: right;
+	margin: 0px;
+	padding: 0px;
+	overflow: hidden;
+}
