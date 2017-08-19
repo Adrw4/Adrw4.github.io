@@ -39,6 +39,12 @@ body, html {
 	margin: 0px;
 	width: 100%;
 }
+
+.row{
+	background-color: lime;
+	margin: 0px;
+}
+
 .nav-link {
 	text-decoration: none;
 	position: relative;
