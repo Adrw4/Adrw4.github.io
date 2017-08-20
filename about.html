@@ -1,80 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="utf-8">
-	<meta content="IE=edge" http-equiv="X-UA-Compatible">
-	<meta content="width=device-width, initial-scale=1" name="viewport"><!--for future reference andrew, put all other items in the head under these 3 tags for optimization. Also put scripts in the script section below the footer.-->
-	<title>Adrw4</title>
-	<link href="css/bootstrap.min.css" rel="stylesheet">
-	<link href="css/styles.css" rel="stylesheet" type="text/css">
-	<link rel="stylesheet" href="css/font-awesome.min.css">
-	<link rel="apple-touch-icon" sizes="57x57" href="images/favicons/apple-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="images/favicons/apple-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="images/favicons/apple-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="images/favicons/apple-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="images/favicons/apple-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="images/favicons/apple-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="images/favicons/apple-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="images/favicons/apple-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="images/favicons/apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192"  href="images/favicons/android-icon-192x192.png">
-    <link rel="icon" type="image/png" sizes="144x144"  href="images/favicons/android-icon-144x144.png">
-    <link rel="icon" type="image/png" sizes="96x96"  href="images/favicons/android-icon-96x96.png">
-    <link rel="icon" type="image/png" sizes="72x72"  href="images/favicons/android-icon-72x72.png">
-    <link rel="icon" type="image/png" sizes="48x48"  href="images/favicons/android-icon-48x48.png">
-    <link rel="icon" type="image/png" sizes="36x36"  href="images/favicons/android-icon-36x36.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="images/favicons/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="images/favicons/favicon-96x96.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="images/favicons/favicon-16x16.png">
-    <link rel="manifest" href="images/favicons/manifest.json">
-    <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-TileImage" content="images/favicons/ms-icon-144x144.png">
-    <meta name="theme-color" content="#ffffff">
-</head>
-<body>
-	<nav class="navbar navbar-inverse navbar-fixed-top">
-		<div class="container-fluid">
-			<div class="navbar-header">
-				<a class="navbar-brand" href="index.html">Adrw4's Site</a> <button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse" type="button"><span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span></button>
-			</div>
-			<div class="collapse navbar-collapse" id="myNavbar">
-				<ul class="nav navbar-nav navbar-right">
-					<li class="nav-item">
-						<a class="nav-link" href="index.html">Home</a>
-					</li>
-					<li class="active">
-						<a class="nav-link" href="about.html">About</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="contact.html">Contact</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="test.html">Test</a>
-					</li>
-				</ul>
-			</div>
-		</div>
-	</nav>
+  <head>
+    <meta charset="utf-8">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta content="width=device-width, initial-scale=1" name="viewport"><!--for future reference andrew, put all other items in the head under these 3 tags for optimization. Also put scripts in the script section below the footer.-->
 
+    <title>
+      Adrw4
+    </title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="images/favicons/apple-icon-57x57.png" rel="apple-touch-icon" sizes="57x57">
+    <link href="images/favicons/apple-icon-60x60.png" rel="apple-touch-icon" sizes="60x60">
+    <link href="images/favicons/apple-icon-72x72.png" rel="apple-touch-icon" sizes="72x72">
+    <link href="images/favicons/apple-icon-76x76.png" rel="apple-touch-icon" sizes="76x76">
+    <link href="images/favicons/apple-icon-114x114.png" rel="apple-touch-icon" sizes="114x114">
+    <link href="images/favicons/apple-icon-120x120.png" rel="apple-touch-icon" sizes="120x120">
+    <link href="images/favicons/apple-icon-144x144.png" rel="apple-touch-icon" sizes="144x144">
+    <link href="images/favicons/apple-icon-152x152.png" rel="apple-touch-icon" sizes="152x152">
+    <link href="images/favicons/apple-icon-180x180.png" rel="apple-touch-icon" sizes="180x180">
+    <link href="images/favicons/android-icon-192x192.png" rel="icon" sizes="192x192" type="image/png">
+    <link href="images/favicons/android-icon-144x144.png" rel="icon" sizes="144x144" type="image/png">
+    <link href="images/favicons/android-icon-96x96.png" rel="icon" sizes="96x96" type="image/png">
+    <link href="images/favicons/android-icon-72x72.png" rel="icon" sizes="72x72" type="image/png">
+    <link href="images/favicons/android-icon-48x48.png" rel="icon" sizes="48x48" type="image/png">
+    <link href="images/favicons/android-icon-36x36.png" rel="icon" sizes="36x36" type="image/png">
+    <link href="images/favicons/favicon-32x32.png" rel="icon" sizes="32x32" type="image/png">
+    <link href="images/favicons/favicon-96x96.png" rel="icon" sizes="96x96" type="image/png">
+    <link href="images/favicons/favicon-16x16.png" rel="icon" sizes="16x16" type="image/png">
+    <link href="images/favicons/manifest.json" rel="manifest">
+    <meta content="#ffffff" name="msapplication-TileColor">
+    <meta content="images/favicons/ms-icon-144x144.png" name="msapplication-TileImage">
+    <meta content="#ffffff" name="theme-color">
+  </head>
+  <body>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="index.html">Adrw4's Site</a> <button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse" type="button"><span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span></button>
+        </div>
 
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
 
-	<div class="container-fluid">
-		<h2 class="bio-header">Andrew's bio</h2>
-		<ul>
-			<li>17 years old</li>
-			<li>Recent high school graduate</li>
-			<li>Currently enrolled at Geekwise Academy located in Fresno, CA.</li>
-			<li>Also enrolled at Fresno city majoring in CIT</li>
-		</ul>
-	</div><!--start of footer-->
-	<footer class="navbar-inverse navbar-bottom">
-		<div class="container">
-			<p class="text-muted">Awalldrew2@gmail.com700 Van Ness Fresno, Ca 93721 Copyright &copy; 2017 Adrw4 All rights reserved.</p>
-		</div>
-	</footer><!--end of footer-->
-	<!-- start of script-->
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script> 
-	<script src="js/bootstrap.min.js"></script> 
-	<!--end of script-->
-</body>
+            <li class="active">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container-fluid">
+      <h2 class="bio-header">
+        Andrew's bio
+      </h2>
+
+      <ul>
+        <li>17 years old
+        </li>
+
+        <li>Recent high school graduate
+        </li>
+
+        <li>Currently enrolled at Geekwise Academy located in Fresno, CA.
+        </li>
+
+        <li>Also enrolled at Fresno city majoring in CIT
+        </li>
+      </ul>
+    </div>
+    <!--start of footer-->
+
+    <footer class="navbar-inverse navbar-bottom">
+      <div class="container social-media-container">
+        <a href="https://github.com/Adrw4" target="_blank"><i class="fa fa-github-square fa-5x" style="color:green"></i></a> <a href="" target="_blank"><i class="fa fa-android fa-5x" style="color:lime"></i></a> <a href="https://www.linkedin.com/in/andrew-waller-b66180146" target="_blank"><i class="fa fa-linkedin fa-3x"></i></a>
+      </div>
+
+      <div class="text-muted">
+        <p>
+          Awalldrew2@gmail.com
+        </p>
+
+        <p>
+          Copyright &copy; 2017 Adrw4 All rights reserved.
+        </p>
+      </div>
+    </footer>
+    <!--end of footer-->
+    <!-- start of script-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js">
+    </script>
+    <script src="js/bootstrap.min.js">
+    </script> <!--end of script-->
+  </body>
 </html>
