@@ -111,3 +111,8 @@ body, html {
   padding: 0px;
   overflow: hidden;
 }
+
+.btn {
+  color: white;
+  background-color: red;
+}
