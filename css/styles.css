@@ -123,3 +123,7 @@ body, html {
   color: darkolivegreen;
   text-align: center;
 }
+
+@media (max-width: @screen-xs-min) {
+  .modal-xs { width: @modal-sm; }
+}
