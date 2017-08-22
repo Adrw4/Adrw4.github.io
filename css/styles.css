@@ -2,14 +2,14 @@ body, html {
   height: 100%;
 }
 
-.parallax {
-  background-image: url("../images/milskydive.webp");
-  height: 90%;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+
+.picture {
+	background-image: url("../images/milskydive.webp");
+ height: 100%;
+ width: 100%;
+ padding-top: 30%;
 }
+
 
 .container-fluid {
   border: 2px solid green;
