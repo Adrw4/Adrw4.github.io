@@ -4,7 +4,7 @@ body, html {
 
 .parallax {
   background-image: url("../images/milskydive.webp");
-  height: 45%;
+  height: 90%;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
