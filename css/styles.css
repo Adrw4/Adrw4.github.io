@@ -3,8 +3,8 @@ body, html {
 }
 
 .parallax {
-  background-image: url("../images/matrix.webp");
-  height: 50%;
+  background-image: url("../images/milskydive.webp");
+  height: 45%;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -29,6 +29,7 @@ body, html {
   font-size: 300%;
   margin: auto;
   width: 50%;
+
 }
 
 .row {
@@ -115,4 +116,10 @@ body, html {
 .btn {
   color: white;
   background-color: red;
+}
+
+.modal-content {
+  background-color: black;
+  color: darkolivegreen;
+  text-align: center;
 }
