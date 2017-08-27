@@ -78,7 +78,7 @@ body {
 
 
 .text-box {
-   margin: 20vh;
+   margin: 0 auto;
    color: rgb(204,204,0);
    text-shadow: 4px 4px 8px rgb(102,102,0);
    text-align: center;
@@ -99,6 +99,25 @@ body {
 
 .modal-content {
   width: max-content;
+}
+
+.contact-form {
+  width: 50%;
+  padding: 25px;
+  margin: 0 auto;
+  background: rgba(210,210,155, .65);
+}
+
+#joke-1 {
+  padding: 2vw;
+}
+
+#biography {
+  padding: 1vw;
+}
+
+#header-01 {
+  font-size: 5vw;
 }
 
 @font-face {
